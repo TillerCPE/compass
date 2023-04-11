@@ -1482,12 +1482,12 @@ $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED K_39
 U 1 1 643F8CDC
-P 6150 5500
-F 0 "K_39" H 6183 5681 60  0000 C CNN
-F 1 "MX-NoLED" H 6183 5649 20  0001 C CNN
-F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5525 5475 60  0001 C CNN
-F 3 "" H 5525 5475 60  0001 C CNN
-	1    6150 5500
+P 6800 5500
+F 0 "K_39" H 6833 5681 60  0000 C CNN
+F 1 "MX-NoLED" H 6833 5649 20  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6175 5475 60  0001 C CNN
+F 3 "" H 6175 5475 60  0001 C CNN
+	1    6800 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1605,12 +1605,12 @@ $EndComp
 $Comp
 L Device:D_Small D_39
 U 1 1 643F8D55
-P 6100 5850
-F 0 "D_39" V 6146 5782 50  0000 R CNN
-F 1 "D" V 6055 5782 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 6100 5850 50  0001 C CNN
-F 3 "~" V 6100 5850 50  0001 C CNN
-	1    6100 5850
+P 6750 5850
+F 0 "D_39" V 6796 5782 50  0000 R CNN
+F 1 "D" V 6705 5782 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 6750 5850 50  0001 C CNN
+F 3 "~" V 6750 5850 50  0001 C CNN
+	1    6750 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1704,7 +1704,7 @@ $EndComp
 Wire Wire Line
 	5450 5650 5450 5750
 Wire Wire Line
-	6100 5650 6100 5750
+	6750 5650 6750 5750
 Wire Wire Line
 	7400 5650 7400 5750
 Wire Wire Line
@@ -1741,18 +1741,11 @@ Wire Wire Line
 Connection ~ 11950 5950
 Wire Wire Line
 	4800 5950 5450 5950
-Wire Wire Line
-	5450 5950 6100 5950
-Connection ~ 5450 5950
-Connection ~ 6100 5950
-Connection ~ 7400 5950
 Text GLabel 4600 5950 0    50   Input ~ 0
 ROW3
 Wire Wire Line
 	4600 5950 4800 5950
 Connection ~ 4800 5950
-Wire Wire Line
-	6100 5950 7400 5950
 Wire Wire Line
 	10650 5950 11950 5950
 Text GLabel 5200 2600 0    50   Input ~ 0
@@ -1822,12 +1815,7 @@ COL12
 Wire Wire Line
 	6500 2600 6500 2900
 Wire Wire Line
-	6500 5450 6300 5450
-Wire Wire Line
 	6300 4600 6500 4600
-Connection ~ 6500 4600
-Wire Wire Line
-	6500 4600 6500 5450
 Wire Wire Line
 	6300 3750 6500 3750
 Connection ~ 6500 3750
@@ -2008,4 +1996,16 @@ Wire Wire Line
 Connection ~ 13000 2900
 Wire Wire Line
 	13000 2900 13000 3750
+Wire Wire Line
+	5450 5950 6750 5950
+Connection ~ 5450 5950
+Wire Wire Line
+	6750 5950 7400 5950
+Connection ~ 6750 5950
+Connection ~ 7400 5950
+Wire Wire Line
+	7150 4600 7150 5450
+Wire Wire Line
+	7150 5450 6950 5450
+Connection ~ 7150 4600
 $EndSCHEMATC

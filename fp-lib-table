@@ -6,4 +6,5 @@
   (lib (name Fuse)(type KiCad)(uri ${KISYSMOD}/Fuse.pretty)(options "")(descr ""))
   (lib (name Crystal)(type KiCad)(uri ${KISYSMOD}/Crystal.pretty)(options "")(descr ""))
   (lib (name Capacitor_SMD)(type KiCad)(uri ${KISYSMOD}/Capacitor_SMD.pretty)(options "")(descr ""))
+  (lib (name Package_QFP)(type KiCad)(uri ${KISYSMOD}/Package_QFP.pretty)(options "")(descr ""))
 )
